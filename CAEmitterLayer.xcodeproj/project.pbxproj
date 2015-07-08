@@ -14,6 +14,9 @@
 		24E1FE5F1B4D295A00B705C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E1FE5E1B4D295A00B705C1 /* Images.xcassets */; };
 		24E1FE621B4D295A00B705C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E1FE601B4D295A00B705C1 /* LaunchScreen.xib */; };
 		24E1FE6E1B4D295B00B705C1 /* CAEmitterLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E1FE6D1B4D295B00B705C1 /* CAEmitterLayerTests.m */; };
+		24E1FE781B4D29E300B705C1 /* DazStarOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1FE771B4D29E300B705C1 /* DazStarOutline.png */; };
+		24E1FE7A1B4D29EE00B705C1 /* DazRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1FE791B4D29EE00B705C1 /* DazRing.png */; };
+		24E1FE7C1B4D345500B705C1 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1FE7B1B4D345500B705C1 /* face.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		24E1FE671B4D295A00B705C1 /* CAEmitterLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAEmitterLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E1FE6C1B4D295A00B705C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24E1FE6D1B4D295B00B705C1 /* CAEmitterLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerTests.m; sourceTree = "<group>"; };
+		24E1FE771B4D29E300B705C1 /* DazStarOutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazStarOutline.png; sourceTree = "<group>"; };
+		24E1FE791B4D29EE00B705C1 /* DazRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazRing.png; sourceTree = "<group>"; };
+		24E1FE7B1B4D345500B705C1 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 		24E1FE511B4D295A00B705C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				24E1FE7B1B4D345500B705C1 /* face.png */,
+				24E1FE771B4D29E300B705C1 /* DazStarOutline.png */,
+				24E1FE791B4D29EE00B705C1 /* DazRing.png */,
 				24E1FE521B4D295A00B705C1 /* Info.plist */,
 				24E1FE531B4D295A00B705C1 /* main.m */,
 			);
@@ -199,8 +208,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24E1FE7C1B4D345500B705C1 /* face.png in Resources */,
+				24E1FE7A1B4D29EE00B705C1 /* DazRing.png in Resources */,
 				24E1FE5D1B4D295A00B705C1 /* Main.storyboard in Resources */,
 				24E1FE621B4D295A00B705C1 /* LaunchScreen.xib in Resources */,
+				24E1FE781B4D29E300B705C1 /* DazStarOutline.png in Resources */,
 				24E1FE5F1B4D295A00B705C1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
